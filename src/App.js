@@ -1,13 +1,15 @@
 import React from 'react'
-import CreateNav from './components/CreateNav'
-import ImagePart from './components/ImagePart'
+import CreateCat from './components/CreateCat'
+import NavBar from './components/NavBar'
 
 const App = () => {
   return (
-    <main>
-      <CreateNav />
-      <ImagePart />
-    </main>
+    <section>
+      <NavBar />
+      <main>
+        <CreateCat />
+      </main>
+    </section>
   )
 }
 
