@@ -1,0 +1,33 @@
+import React from 'react'
+import MakePartOne from './MakePartOne'
+
+import Fintechocat from '../images/fintechtocat.png'
+import Brennatocat from '../images/brennatocat.png'
+import Filmtocats from '../images/filmtocats.png'
+import Sentrytocat from '../images/sentrytocat_octodex.jpg'
+import Surftocat from '../images/surftocat.png'
+import Scubatocat from '../images/scubatocat.png'
+
+const images = [
+  { name: 'Fintechtocat', imageUrl: Fintechtocat },
+  { name: 'Brennatocat', imageUrl: Brennatocat },
+  { name: 'Filmtocats', imageUrl: Filmtocats },
+  { name: 'Sentrytocat', imageUrl: Sentrytocat },
+  { name: 'Surftocat', imageUrl: Surftocat },
+  { name: 'Scubatocat', imageUrl: Scubatocat }
+]
+
+
+const ImagePart = props => {
+return (
+      <ul>
+        {images.map(image => {
+          return <MakePartOne name={image.name} imageUrl={image.imageUrl} />
+        })}
+      </ul>
+    )
+}
+
+export default ImagePart
+
+

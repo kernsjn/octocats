@@ -9,4 +9,85 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: whitesmoke;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 1rem 1rem -0.5rem 1rem;
+  border: 1px solid lightgray;
+}
+
+.margin {
+  margin-top: 5rem;
+}
+
+.navBarMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.15);
+}
+
+.navBarOne {
+  display: flex;
+  flex-direction: row;
+}
+
+.navBarTwo {
+  display: flex;
+  height: 4rem;
+  width: auto;
+  padding-right: 10px;
+}
+
+.titleOne {
+  display: flex;
+  align-items: center;
+}
+
+h5 {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+h5:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  height: 35px;
+  width: auto;
+  align-content: center;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h1 {
+  height: auto;
+  font-size: 1rem;
+  width: 300px;
+  margin-left: 1rem;
 }
